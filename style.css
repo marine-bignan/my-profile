@@ -1,0 +1,117 @@
+body {
+ background-color: rgb(248, 240, 223);
+ color:white;
+ font-family: Helvetica;
+
+}
+.presentation{
+	color:rgb(58, 99, 81);
+	font-family: Helvetica;
+	font-size: 25px;
+
+}
+
+h1, h2, {
+font-family: courier;	
+text-align: center;
+}
+
+h1 {
+	color:rgb(58, 99, 81);
+	font-weight: 100;
+	letter-spacing: 10px;
+	font-size: 60px;
+}
+h2 {
+	color:rgb(58, 99, 81);
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+a {
+  text-decoration: none;
+  color:rgb(58, 99, 81);
+  font-weight: bold;
+}
+a:hover{
+  color: rgb(153, 167, 153);
+}
+
+div{
+	background: rgb(153, 167, 153);
+	border: 2px solid rgba(58, 99, 81);
+	width: 700px;
+	margin: 50px auto;
+	padding: 35px;
+	border-radius: 4px;
+	text-align: center;
+}
+
+.profile_picture {
+	width: 200px;
+	height: 250px;
+	border-radius: 50%;
+	border: 5px solid rgb(58, 99, 81);
+	box-shadow: 0 15px 35px rgba(153, 167, 153);
+	width: 200px;
+	margin: 50px auto;
+}
+
+.block1{
+	background: rgb(248, 240, 223);
+	padding: 60px;
+	margin: 50px auto;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.btn{
+	background-color: rgb(58, 99, 81);
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px ;
+	width: 30%;
+	margin: auto;
+}
+.btn:hover{
+	background-color: white;
+}
+
+.list-horizontal{
+	list-style-type: none;
+	margin: auto;
+	padding: 0;
+}
+.list-horizontal li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-horizontal i {
+	font-size: 50px;
+	color: rgb(58, 99, 81);
+}
+
+.list-horizontal i:hover{
+	color: white;
+}
+
+#introduction p {
+	margin-bottom: 40px ;
+}
+
+@media(max-width: 760px){
+.block1{
+	width: 600px;
+}
+}
+
+@media (max-width: 500px){
+	.block1{
+		width: 400px;
+	}
+}
